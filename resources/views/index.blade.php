@@ -6,12 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title', 'City Tours')</title>
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <div class="container">
-    @include('partials.nav')
-    </div>
+    <section class="section section1">
+        @include('partials.nav')
+
+    </section>
+
+    <section class="section section2"></section>
+    <section class="section section3"></section>
+    <section class="section section4"></section>
+
 
 </body>
 </html>
