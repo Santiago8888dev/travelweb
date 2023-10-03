@@ -17,9 +17,14 @@
 
     </section>
 
-    <section class="section section2"></section>
+    <section class="section section2">
+
+    </section>
     <section class="section section3"></section>
-    <section class="section section4"></section>
+    <section class="section section4">
+    <footer class="footer">
+        <p>hecho with peyton8888</p>    </footer>
+    </section>
 
 
 </body>
