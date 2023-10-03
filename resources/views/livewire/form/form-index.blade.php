@@ -1,16 +1,16 @@
 <div>
-    <form action="">
+    <form wire:submit="send">
         <label for="">{{__('form.name')}}</label>
-        <input type="email">
+        <input type="text" wire:model="name">
 
         <label for="">Gmail</label>
-        <input type="text">
+        <input type="email" wire:model="email">
 
         <label for="">{{__('form.content')}}</label>
-        <input type="email">
+        <input type="text">
 
         <p>{{__('form.permission')}}</p>
 
-        <button>{{__('form.send')}}</button>
+        <button type="submit">{{__('form.send')}}</button>
     </form>
 </div>
