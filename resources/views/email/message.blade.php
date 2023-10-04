@@ -9,7 +9,9 @@
 <body>
     <h1>Hello {{$name}}</h1>
 
-    <p> Este es un mensaje de la empresa City Travel para registrar su boleto, la empresa se estara comunicando con ustedes brevemente</p>
+    <p> Este es un mensaje de la empresa City Tours para registrar su boleto, la empresa se estara comunicando con ustedes brevemente <strong>Ingora este mesaje esta enviado desde la web </strong></p>
+    <h2>Commet</h2>
+    <p>{{$commet}}</p>
     <img src="{{asset('img/andean-condor-3539312_1280.jpg')}}" alt="">
 </body>
 </html>

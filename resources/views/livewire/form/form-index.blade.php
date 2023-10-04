@@ -1,16 +1,23 @@
 <div>
-    <form wire:submit="send">
-        <label for="">{{__('form.name')}}</label>
-        <input type="text" wire:model="name">
 
-        <label for="">Gmail</label>
-        <input type="email" wire:model="email">
+    <div class="container">
 
-        <label for="">{{__('form.content')}}</label>
-        <input type="text">
+        <div class="container_form">
+            <form wire:submit="send">
+                <label for="">{{__('form.name')}}</label>
+                <input type="text" wire:model="name">
 
-        <p>{{__('form.permission')}}</p>
+                <label for="">Gmail</label>
+                <input type="email" wire:model="email">
 
-        <button type="submit">{{__('form.send')}}</button>
-    </form>
+                <label for="">{{__('form.content')}}</label>
+                <input type="text">
+
+                <p>{{__('form.permission')}}</p>
+
+                <button type="submit">{{__('form.send')}}</button>
+            </form>
+        </div>
+    </div>
+
 </div>

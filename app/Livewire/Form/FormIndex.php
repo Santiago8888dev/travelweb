@@ -10,10 +10,11 @@ class FormIndex extends Component
 {
     public $email;
     public $name;
+    public $commet;
 
     public function send(){
         // dd($this->name);
-        Mail::to($this->email)->send(new OrderCity($this->name));
+        Mail::to($this->email)->send(new OrderCity($this->name, $this->commet));
     }
 
 
