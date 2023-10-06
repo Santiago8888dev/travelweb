@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family:'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 
 *::-webkit-scrollbar{
     width: 3px;
@@ -27,25 +31,41 @@
     background-color: black;
 }
 
-.list {
-    display: inline;
-    margin-right: 2%;
-    /* background-color: white;*/
-    color: white;
-    text-shadow: 0 0 10px white;
-    padding: 3px 5px;
-    border-radius: 9px;
-}
-li a{
-    text-decoration: none;
-}
-.section-nav{
-    margin-top: 20px;
-}
-
-.footer{
-    color: white;
-}
+/* css para el navba :v no soy bueno para el css XDr */
+.section_nav{
+    margin: 10px auto;
+    height: 60px;
+    width: 80%;
+    position: relative;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
+    /* background-color: rgba(255, 255, 255, 0.5); */
 
 
+}
 
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 7px;
+}
+.content{
+    position: absolute;
+
+    left: 8%;
+    z-index: 3;
+
+}
+
+.logo{
+    position: absolute;
+    left: 0;
+    background: url('../img/logo/avion.png');
+    background-size: cover;
+    object-position: center;
+    height: 100%;
+    width:6%;
+    margin-right: 5px;
+
+}

@@ -1,5 +1,5 @@
 <?php
 return [
     'reservations' => 'Reservations',
-    'contact' => 'contact'
+    'contact' => 'Contact'
 ];
