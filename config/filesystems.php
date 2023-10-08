@@ -57,7 +57,8 @@ return [
         ],
         'city' => [
             'driver' => 'local',
-            'root' => public_path().'/images/'.'/city',
+            'root' => public_path().'/images/city',
+            'url' => env('APP_URL').'/storage/city',
             'visibility' => 'public',
         ],
 

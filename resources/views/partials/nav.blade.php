@@ -1,7 +1,7 @@
 <div class="section-nav">
     <nav>
         {{-- <li class="list"> City Tours </li> --}}
-        <div class="content">
+        <div class="content2">
             <ul class="ul-list">
                 <li class="list">
                 @forelse (Config::get('lenguajes') as $lang => $lenguajes)

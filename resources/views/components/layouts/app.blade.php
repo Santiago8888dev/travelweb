@@ -6,9 +6,34 @@
 
         <title>{{ $title ?? 'Page Title' }}</title>
     <link rel="stylesheet" href="{{asset('css/form.css')}}">
-
-    </head>
+    <link rel="stylesheet" href="{{asset('css/card.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        @livewireStyles
+</head>
     <body>
-        {{ $slot }}
+        <section class="section section1">
+            @include('partials.nav')
+        </section>
+
+        <section class="section section2">
+            @livewire('city.list-city')
+        </section>
+
+        <section>
+            @livewire('form.form-index')
+        </section>
+
+
+        <section>
+            @livewire('city.create-city')
+        </section>
+        <footer class="footer">
+            <p>hecho with peyton8888</p>
+        </footer>
+
+
+        {{-- {{ $slot }} --}}
+    @livewireScripts
     </body>
 </html>
