@@ -12,7 +12,7 @@
                     <div class="text">
                         <h3>{{$item->name}}</h3>
                         <p>{{$item->description}}</p>
-                        <p>{{$item->location}}</p>
+                        <p class="location" style="color: red">{{$item->location}}</p>
                     </div>
                 </div>
 

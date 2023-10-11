@@ -11,7 +11,7 @@
                 <input type="email" wire:model="email">
 
                 <label for="">{{__('form.content')}}</label>
-                <input type="text">
+                <input type="text"  wire:model="commet">
 
                 <p>{{__('form.permission')}}</p>
 

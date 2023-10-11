@@ -12,8 +12,11 @@ class FormIndex extends Component
     public $name;
     public $commet;
 
-    public function send(){
-        Mail::to($this->email)->send(new OrderCity($this->name, $this->commet));
+    public function send()
+{
+
+        Mail::to($this->email)->send(new OrderCity($this->name));
+        return redirect()->route('index');
     }
 
 

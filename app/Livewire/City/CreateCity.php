@@ -34,7 +34,7 @@ class CreateCity extends Component
     }
 
     City::create($data);
-    redirect()->route('listCity');
+    redirect()->route('create');
 
     }
     public function render()

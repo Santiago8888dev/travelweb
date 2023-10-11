@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -12,28 +12,26 @@
         @livewireStyles
 </head>
     <body>
-        <section class="section section1">
-            @include('partials.nav')
-        </section>
+
 
         <section class="section section2">
-            @livewire('city.list-city')
+            {{-- @livewire('city.list-city')
         </section>
 
         <section>
-            @livewire('form.form-index')
+            {{-- @livewire('form.form-index')
         </section>
 
 
         <section>
-            @livewire('city.create-city')
+            {{-- @livewire('city.create-city') 
         </section>
         <footer class="footer">
             <p>hecho with peyton8888</p>
         </footer>
 
 
-        {{-- {{ $slot }} --}}
+        {{-- {{ $slot }}
     @livewireScripts
     </body>
-</html>
+</html> --}}

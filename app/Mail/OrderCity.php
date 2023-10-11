@@ -17,10 +17,7 @@ class OrderCity extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct(public $name, public $commet)
-    {
-        //
-    }
+    public function __construct(public $name){}
 
     /**
      * Get the message envelope.
@@ -29,8 +26,7 @@ class OrderCity extends Mailable
     {
         return new Envelope(
             subject: 'Mensage de contacto por pedido City Travel',
-            from: new Address(env('MAIL_FROM_ADDRESS', 'MAIL_FROM_NAME'))
-        );
+            from: new Address('matiasyarihuaman56@gmail.com', 'travel'));
     }
 
     /**
