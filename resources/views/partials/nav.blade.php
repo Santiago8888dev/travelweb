@@ -15,7 +15,10 @@
             </li>
             <li class="list"><a href="">{{__('nav.reservations')}}</a></li>
             <li class="list"><a href="{{route('formulario')}}">{{__('nav.contact')}}</a></li>
-            {{-- <li class="list">Git Hub <img src="{{asset('img/github-icon.svg')}}" alt=""></li> --}}
+            <div class="login">
+                <li class="list"><a href="{{route('login')}}">Inicio Seccion</a></li>
+                <li class="list"><a href="{{route('register')}}">Registro</a></li>
+            </div>
 
         </ul>
     </div>

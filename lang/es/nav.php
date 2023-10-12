@@ -2,6 +2,6 @@
 return [
     '' => 'Inicio',
     'reservations' => 'Reservaciones',
-    'contact' => 'contacto'
+    'contact' => 'Contacto'
 
 ];

@@ -39,7 +39,7 @@ a{
 .section_nav{
     margin: 10px auto;
     height: 60px;
-    width: 80%;
+    width: 100%;
     position: relative;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(30px);
@@ -57,9 +57,9 @@ li{
 }
 .content2{
     position: absolute;
-
     left: 8%;
     z-index: 3;
+    width: 80%;
 }
 
 .eslogan{
@@ -186,4 +186,12 @@ span:nth-child(7){
     left: initial;
     animation-delay: 1.2s;
     animation-duration: 1.75s;
+}
+
+.login{
+    position: absolute;
+    right: 15px;
+    top: 0;
+    margin: 5px;
+    color: white;
 }
