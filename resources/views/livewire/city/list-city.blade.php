@@ -1,4 +1,6 @@
 <div>
+        <div class="titlet">{{__('index.welcome')}}</div>
+        {{-- <h1 class="title">Ciudades</h1> --}}
     <div class="bd">
         <div class="container">
             @forelse ($city as $item)

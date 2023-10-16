@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-top: 60px; */
     /* height: 100vh; */
     /* background-color: aquamarine; */
 }
@@ -15,7 +16,7 @@
     position: relative;
     height: 350px;
     width: 250px;
-    margin: 20px;
+    margin: 15px;
     border-radius: 15px;
     /* box shadow */
     display: flex;
@@ -47,6 +48,7 @@
     flex-direction: column;
     backdrop-filter: blur(15px);
     transition: all .5s;
+    padding: 4px;
 }
 .card:hover .content {
     bottom: 0;
@@ -63,7 +65,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
     transform:  translateY(10px);
     opacity: 0;

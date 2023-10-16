@@ -31,7 +31,7 @@ a{
     overflow: hidden;
 
 }
-.section2,.section3,.section4{
+.section2, .section3{
     background-color: black;
 }
 
@@ -193,5 +193,43 @@ span:nth-child(7){
     right: 15px;
     top: 0;
     margin: 5px;
+    color: white;
+}
+
+.section3{
+    position: relative;
+    background: url('../img/pexels-lua-morales-4125019.jpg') no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+
+}
+.image{
+    background: url('../img/001\ me7a0244cusco\ trekking\ ger\ 19\ _preview.jpg') no-repeat;
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+.text-index{
+    position: absolute;
+    top: 150px;
+    height: 350px;
+    width: 350px;
+    right: 200px;
+    color: black;
+    text-shadow: 0 0 10px white;
+    font-size: 20px;
+}
+
+.titlet{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 14px;
     color: white;
 }

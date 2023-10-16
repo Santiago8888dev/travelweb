@@ -17,6 +17,13 @@
             <p class="eslogan">{{__('index.eslogan')}}</p>
         </div>
     </section>
+    {{-- resumen --}}
+    <section class="section section3">
+        <div class="titlet">{{__('index.welcome')}}</div>
+        <div class="image"></div>
+        <div class="text-index">{{__('index.text')}}</div>
+    </section>
+
     {{-- seccion de cartas --}}
     <section class="section section2">
             @livewire('city.list-city')

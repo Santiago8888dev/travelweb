@@ -16,8 +16,8 @@
             <li class="list"><a href="">{{__('nav.reservations')}}</a></li>
             <li class="list"><a href="{{route('formulario')}}">{{__('nav.contact')}}</a></li>
             <div class="login">
-                <li class="list"><a href="{{route('login')}}">Inicio Seccion</a></li>
-                <li class="list"><a href="{{route('register')}}">Registro</a></li>
+                <li class="list"><a href="{{route('login')}}">{{__('nav.login')}}</a></li>
+                <li class="list"><a href="{{route('register')}}">{{__('nav.register')}}</a></li>
             </div>
 
         </ul>

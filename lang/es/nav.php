@@ -2,6 +2,9 @@
 return [
     '' => 'Inicio',
     'reservations' => 'Reservaciones',
-    'contact' => 'Contacto'
+    'contact' => 'Contacto',
+    'login' => 'Inicia Seccion',
+    'register' => 'Rigistrate'
+
 
 ];

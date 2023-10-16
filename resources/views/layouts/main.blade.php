@@ -16,6 +16,7 @@
     <!-- css -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/card.css')}}">
+    <link rel="stylesheet" href="{{asset('css/form.css')}}">
     @livewireStyles
 </head>
 <body>
